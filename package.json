@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "deploy": "gh-pages -d .output/public",
+    "generate": "nuxt generate",
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.png",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@vite-pwa/assets-generator": "^0.0.9",
+    "@vite-pwa/nuxt": "^0.1.0",
+    "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
+    "nuxt": "^3.7.1",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4"
+  }
+}
